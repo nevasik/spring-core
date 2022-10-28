@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Добавим сканирование компонентов в определённом пакете, что бы Spring проверил классы на наличие аннотаций, и создал бин класса с аннотацией @Component -->
+    <context:component-scan base-package="ru.poplaukhin.spring"/>
+
+
+</beans>
+<!--    <context:property-placeholder location="classpath:musicPlayer.properties"/> &lt;!&ndash; импортировали наш файл musicPlayer с сеттерами в наш файл xml &ndash;&gt;-->
+
+<!--    <bean id="musicBean1"-->
+<!--          class="ru.poplaukhin.spring.ClassicalMusic"-->
+<!--            init-method="doMyInit"-->
+<!--            destroy-method="doMyDestroy"-->
+<!--            factory-method="newGetClassicalMusic"> &lt;!&ndash; Позволяет создавать объект не напрямую через new, а через фабричный метод &ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="musicBean2"-->
+<!--          class="ru.poplaukhin.spring.PopMusic"-->
+<!--          scope="prototype"> &lt;!&ndash; создаёт новый объект при создании каждый раз&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="musicBean3"-->
+<!--          class="ru.poplaukhin.spring.RockMusic">-->
+<!--    </bean>-->
+
+    <!--
+            <list>
+                <ref bean="musicBean1"/>
+                <ref bean="musicBean2"/>
+                <ref bean="musicBean3"/>
+            </list>
+          -->
+<!--    <bean id="musicPlayer"-->
+<!--          class="ru.poplaukhin.spring.MusicPlayer"-->
+<!--            scope="prototype">-->
+<!--        <property name="musicList" ref="musicBean1"/>-->
+
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--    </bean>-->
