@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit" />
+    <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/GenreMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/GenreMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +142,7 @@
       <workItem from="1666943469512" duration="256000" />
       <workItem from="1666952656186" duration="2823000" />
       <workItem from="1666958432713" duration="1704000" />
-      <workItem from="1667050125645" duration="1248000" />
+      <workItem from="1667050125645" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="two commit">
       <created>1666952870181</created>
