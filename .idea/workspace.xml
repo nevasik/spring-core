@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,7 @@
       <workItem from="1666943469512" duration="256000" />
       <workItem from="1666952656186" duration="2823000" />
       <workItem from="1666958432713" duration="1704000" />
-      <workItem from="1667050125645" duration="677000" />
+      <workItem from="1667050125645" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="two commit">
       <created>1666952870181</created>
