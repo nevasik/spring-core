@@ -3,7 +3,6 @@ package ru.poplaukhin.spring;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-import java.util.Random;
 @Component // будет создавать бин из этого класса, что бы потом внедрить в него зависимость - бин classicalMusic или бин rockMusic
 public class MusicPlayer {
     private final Music music1;
