@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Info" beforeDir="false" afterPath="$PROJECT_DIR$/Info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/GenreMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/GenreMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/TestSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.TestSpring">
+    <configuration name="ArrMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.poplaukhin.spring.ArrMinMax" />
+      <module name="spring-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.poplaukhin.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.poplaukhin.spring.SingletonTest" />
       <module name="spring-app1" />
@@ -101,6 +114,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestSpring" />
+        <item itemvalue="Application.ArrMinMax" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.Test" />
       </list>
@@ -143,6 +157,7 @@
       <workItem from="1666952656186" duration="2823000" />
       <workItem from="1666958432713" duration="1704000" />
       <workItem from="1667050125645" duration="3907000" />
+      <workItem from="1667066836679" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="two commit">
       <created>1666952870181</created>

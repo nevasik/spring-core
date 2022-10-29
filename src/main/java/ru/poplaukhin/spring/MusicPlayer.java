@@ -20,18 +20,15 @@ public class MusicPlayer {
         this.music3 = music3;
     }
 
-    public String playMusic(GenreMusic genreMusic) {
+    public void playMusic(GenreMusic genreMusic) {
         Random random = new Random();
-        String result = null;
 
         if (genreMusic == GenreMusic.ROCK) {
-            result = "Playing: " + music1.randomMusic(random.nextInt(3));
+            System.out.println("Playing: " + music1.randomMusic(random.nextInt(3)));
         } else if (genreMusic == GenreMusic.CLASSICAL) {
-            result = "Playing: " + music2.randomMusic(random.nextInt(3));
-        } else if (genreMusic == GenreMusic.POP) {
-            result = "Playing: " + music3.randomMusic(random.nextInt(3));
+            System.out.println("Playing: " + music2.randomMusic(random.nextInt(3)));
+        } else {
+            System.out.println("Playing: " + music3.randomMusic(random.nextInt(3)));
         }
-
-        return result;
     }
 }
