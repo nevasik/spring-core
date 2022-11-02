@@ -1,7 +1,7 @@
 package ru.poplaukhin.spring;
 public class PopMusic implements Music {
     @Override
-    public String randomMusic() {
+    public String getSong() {
         return "Stay the way";
     }
 }

@@ -1,7 +1,7 @@
 package ru.poplaukhin.spring;
-public class RepMusic implements Music {
+public class JazzMusic implements Music {
     @Override
-    public String randomMusic() {
+    public String getSong() {
         return "I'm giri";
     }
 }
