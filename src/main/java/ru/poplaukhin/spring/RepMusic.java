@@ -1,17 +1,15 @@
 package ru.poplaukhin.spring;
 
-import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
-public class PopMusic implements Music {
+public class RepMusic implements Music {
     private final List<String> songs = new ArrayList<>();
 
     {
-        songs.add("Simba pa");
-        songs.add("So good on line");
-        songs.add("Stay the way");
+        songs.add("White snow");
+        songs.add("Winter, people cold");
+        songs.add("I'm giri");
     }
 
     @Override

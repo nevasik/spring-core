@@ -4,7 +4,7 @@ public class SingletonPattern {
     private static SingletonPattern instance;
 
     // Скажем, что у нашего единственного объекта должно быть поле value
-    private String value;
+    private final String value;
 
     // Метод getter для поля value
     public String getValue() {

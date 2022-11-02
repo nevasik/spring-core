@@ -1,34 +1,59 @@
 package ru.poplaukhin.spring;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
-@Component // будет создавать бин из этого класса, что бы потом внедрить в него зависимость - бин classicalMusic или бин rockMusic
+//@Component // будет создавать бин из этого класса, что бы потом внедрить в него зависимость - бин classicalMusic или бин rockMusic
 public class MusicPlayer {
-    private final Music music1;
-    private final Music music2;
-    private final Music music3;
-    @Autowired
-    public MusicPlayer(@Qualifier("rockMusic") Music music1,
-                       @Qualifier("classicalMusic") Music music2,
-                       @Qualifier("popMusic") Music music3) { // указали какие зависимости мы будем внедрять в music and music2 and music3
-        this.music1 = music1;
-        this.music2 = music2;
-        this.music3 = music3;
+    @Value("${musicPlayer.name}")
+    private String name; // мы сюда внедрили наше значение из файла musicPlayer.properties(Some name)
+    @Value("${musicPlayer.volume}")
+    private int volume; // внедрили число 70
+    private List<Music> music = new ArrayList<>(); // хранит в себе список жанров
+
+    {
+        music.add(new RockMusic());
+        music.add(new RepMusic());
+        music.add(new ClassicalMusic());
     }
 
-    public void playMusic(GenreMusic genreMusic) {
-        Random random = new Random();
+    public MusicPlayer(@Qualifier("rockMusic, repMusic, classicalMusic") List<Music> music) {
+        this.music = music;
+    }
 
-        if (genreMusic == GenreMusic.ROCK) {
-            System.out.println("Playing: " + music1.randomMusic(random.nextInt(3)));
-        } else if (genreMusic == GenreMusic.CLASSICAL) {
-            System.out.println("Playing: " + music2.randomMusic(random.nextInt(3)));
-        } else {
-            System.out.println("Playing: " + music3.randomMusic(random.nextInt(3)));
+    public void playMusic() {
+        Random random = new Random();
+        int a = random.nextInt(4);
+
+        for (Music musicGenre : music) {
+            if (a == 1) {
+                System.out.println("PLaying: " + musicGenre.randomMusic(a));
+            } else if (a == 2) {
+                System.out.println("PLaying: " + musicGenre.randomMusic(a));
+            } else if (a == 3) {
+                System.out.println("PLaying: " + musicGenre.randomMusic(a));
+            } else {
+                System.out.println("PLaying: " + musicGenre.randomMusic(a));
+            }
+//            if (genreMusic == GenreMusic.ROCK) {
+//                System.out.println("Playing: " + musicGenre.randomMusic(random.nextInt(3)));
+//            } else if (genreMusic == GenreMusic.CLASSICAL) {
+//                System.out.println("Playing: " + musicGenre.randomMusic(random.nextInt(3)));
+//            } else {
+//                System.out.println("Playing: " + musicGenre.randomMusic(random.nextInt(3)));
+//            }
         }
+    }
+    public String getName() {
+        return name;
+    }
+
+    public int getVolume() {
+        return volume;
     }
 }

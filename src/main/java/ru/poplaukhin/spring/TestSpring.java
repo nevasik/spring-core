@@ -1,17 +1,19 @@
 package ru.poplaukhin.spring;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class TestSpring {
     public static void main(String[] args) {
-        //этот класс обращается к файлу <ApplicationContext> считывает его и помещает все бины которые там описаны в ClassPathXmlApplicationContext
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "applicationContext.xml"
-        );
+
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
 
         MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
-        musicPlayer.playMusic(GenreMusic.CLASSICAL);
-        musicPlayer.playMusic(GenreMusic.ROCK);
-        musicPlayer.playMusic(GenreMusic.POP);
+
+        ClassicalMusic classicalMusic1 = context.getBean("classicalMusic", ClassicalMusic.class);
+        RepMusic repMusic = context.getBean("repMusic", RepMusic.class);
+        RockMusic rockMusic = context.getBean("rockMusic", RockMusic.class);
+        PopMusic popMusic = context.getBean("popMusic", PopMusic.class);
+        musicPlayer.playMusic();
 
         context.close();
     }

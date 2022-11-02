@@ -1,3 +1,8 @@
+//этот класс обращается к файлу <ApplicationContext> считывает его и помещает все бины которые там описаны в ClassPathXmlApplicationContext
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+                "applicationContext.xml"
+        );
+
 Scope Singleton
 Используется по умолчанию. По умолчанию создаётся один объект (до вызова метода getBean()).
 При всех вызовах getBean() возвращается ссылка на один и тот же объект.
@@ -96,5 +101,38 @@ public class ClassicalMusic {
         songs.add("Weekend lots");
     }
 
+
+Аннотация @Value - какое значение будет внедрятся в наше поле(@Value("${musicPlayer.name}"))
+
+Аннотация @Scope("singleton or prototype") - эту аннотацию мы передаём над названием класса
+
+Аннотация @PostConstruct - вызывается указанный init-method
+Аннотация @PreDestroy - вызывается указанный destroy-method
+Их методы не должны ничего принимать в аргументы методов
+* @PostConstruct
+  public void doMyInit() {
+        System.out.println("Doing my initialization");
+  }
+
+  @PreDestroy
+  public void doMyDestroy() {
+        System.out.println("Doing my destruction");
+  }
+
+
+Аннотация @Configuration - помечаем Java класс, который мы хотим использовать для конфигурации Spring приложения.
+Пустой конфигурационный Java класс равен по функционалу пустому конфигурационному.
+*
+@Configuration
+public class SpringConfig {
+}
+
+Для каждого XML тега есть соответствующая аннотация:
+<context:component-scan base-package="ru.poplaukhin.spring" для этого тега есть Java аннотация:
+
+@Configuration
+@ComponentScan("ru.poplaukhin.spring")
+public class SpringConfig {
+}
 
 

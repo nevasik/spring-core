@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RepMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Info" beforeDir="false" afterPath="$PROJECT_DIR$/Info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.poplaukhin.spring.SingletonTest" />
+      <module name="spring-app1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.poplaukhin.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.poplaukhin.spring.SingletonTest" />
       <module name="spring-app1" />
@@ -107,6 +133,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestSpring" />
+        <item itemvalue="Application.SingletonTest (1)" />
         <item itemvalue="Application.ArrMinMax" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.Test" />
@@ -150,7 +177,15 @@
       <workItem from="1666952656186" duration="2823000" />
       <workItem from="1666958432713" duration="1704000" />
       <workItem from="1667050125645" duration="3907000" />
-      <workItem from="1667066836679" duration="3158000" />
+      <workItem from="1667066836679" duration="7632000" />
+      <workItem from="1667132086898" duration="3628000" />
+      <workItem from="1667236789335" duration="3096000" />
+      <workItem from="1667280624458" duration="4854000" />
+      <workItem from="1667322683282" duration="619000" />
+      <workItem from="1667340063768" duration="2713000" />
+      <workItem from="1667367685068" duration="92000" />
+      <workItem from="1667371169205" duration="662000" />
+      <workItem from="1667374611598" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="two commit">
       <created>1666952870181</created>

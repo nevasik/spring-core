@@ -1,47 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<beans  xmlns="http://www.springframework.org/schema/beans"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:context="http://www.springframework.org/schema/context"
-        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xmlns:context="http://www.springframework.org/schema/context"-->
+<!--       xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+<!--	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd-->
+<!--	http://www.springframework.org/schema/context-->
+<!--	http://www.springframework.org/schema/context/spring-context-2.5.xsd">-->
 
-    <!-- Добавим сканирование компонентов в определённом пакете, что бы Spring проверил классы на наличие аннотаций, и создал бин класса с аннотацией @Component -->
-    <context:component-scan base-package="ru.poplaukhin.spring"/>
+<!--    &lt;!&ndash; Добавим сканирование компонентов в определённом пакете, что бы Spring проверил классы на наличие аннотаций, и создал бин класса с аннотацией @Component &ndash;&gt;-->
+<!--    <context:component-scan base-package="ru.poplaukhin.spring"/>-->
 
+<!--    &lt;!&ndash; Импортируем наш файл musicPlayer.properties в applicationContext&ndash;&gt;-->
+<!--    <context:property-placeholder location="classpath:musicPlayer.properties"/>-->
 
-</beans>
-<!--    <context:property-placeholder location="classpath:musicPlayer.properties"/> &lt;!&ndash; импортировали наш файл musicPlayer с сеттерами в наш файл xml &ndash;&gt;-->
+<!--    <context:annotation-config />-->
 
-<!--    <bean id="musicBean1"-->
-<!--          class="ru.poplaukhin.spring.ClassicalMusic"-->
-<!--            init-method="doMyInit"-->
-<!--            destroy-method="doMyDestroy"-->
-<!--            factory-method="newGetClassicalMusic"> &lt;!&ndash; Позволяет создавать объект не напрямую через new, а через фабричный метод &ndash;&gt;-->
-<!--    </bean>-->
+<!--    <bean id="rockMusic" class="ru.poplaukhin.spring.RockMusic"/>-->
 
-<!--    <bean id="musicBean2"-->
-<!--          class="ru.poplaukhin.spring.PopMusic"-->
-<!--          scope="prototype"> &lt;!&ndash; создаёт новый объект при создании каждый раз&ndash;&gt;-->
-<!--    </bean>-->
+<!--</beans>-->
+<!--&lt;!&ndash;    <context:property-placeholder location="classpath:musicPlayer.properties"/> &lt;!&ndash; импортировали наш файл musicPlayer с сеттерами в наш файл xml &ndash;&gt;&ndash;&gt;-->
 
-<!--    <bean id="musicBean3"-->
-<!--          class="ru.poplaukhin.spring.RockMusic">-->
-<!--    </bean>-->
+<!--&lt;!&ndash;    <bean id="musicBean1"&ndash;&gt;-->
+<!--&lt;!&ndash;          class="ru.poplaukhin.spring.ClassicalMusic"&ndash;&gt;-->
+<!--&lt;!&ndash;            init-method="doMyInit"&ndash;&gt;-->
+<!--&lt;!&ndash;            destroy-method="doMyDestroy"&ndash;&gt;-->
+<!--&lt;!&ndash;            factory-method="newGetClassicalMusic"> &lt;!&ndash; Позволяет создавать объект не напрямую через new, а через фабричный метод &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
 
-    <!--
-            <list>
-                <ref bean="musicBean1"/>
-                <ref bean="musicBean2"/>
-                <ref bean="musicBean3"/>
-            </list>
-          -->
-<!--    <bean id="musicPlayer"-->
-<!--          class="ru.poplaukhin.spring.MusicPlayer"-->
-<!--            scope="prototype">-->
-<!--        <property name="musicList" ref="musicBean1"/>-->
+<!--&lt;!&ndash;    <bean id="musicBean2"&ndash;&gt;-->
+<!--&lt;!&ndash;          class="ru.poplaukhin.spring.PopMusic"&ndash;&gt;-->
+<!--&lt;!&ndash;          scope="prototype"> &lt;!&ndash; создаёт новый объект при создании каждый раз&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
 
-<!--        <property name="name" value="${musicPlayer.name}"/>-->
-<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
-<!--    </bean>-->
+<!--&lt;!&ndash;    <bean id="musicBean3"&ndash;&gt;-->
+<!--&lt;!&ndash;          class="ru.poplaukhin.spring.RockMusic">&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
+
+<!--    &lt;!&ndash;-->
+<!--            <list>-->
+<!--                <ref bean="musicBean1"/>-->
+<!--                <ref bean="musicBean2"/>-->
+<!--                <ref bean="musicBean3"/>-->
+<!--            </list>-->
+<!--          &ndash;&gt;-->
+<!--&lt;!&ndash;    <bean id="musicPlayer"&ndash;&gt;-->
+<!--&lt;!&ndash;          class="ru.poplaukhin.spring.MusicPlayer"&ndash;&gt;-->
+<!--&lt;!&ndash;            scope="prototype">&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="musicList" ref="musicBean1"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <property name="name" value="${musicPlayer.name}"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="volume" value="${musicPlayer.volume}"/>&ndash;&gt;-->
+<!--&lt;!&ndash;    </bean>&ndash;&gt;-->
