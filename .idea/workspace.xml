@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b8bc275-b028-452c-95af-81ecbdce08bc" name="Changes" comment="two commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RepMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Info" beforeDir="false" afterPath="$PROJECT_DIR$/Info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/ClassicalMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/PopMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RepMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RepMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SingletonPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SingletonPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/poplaukhin/spring/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -185,7 +182,8 @@
       <workItem from="1667340063768" duration="2713000" />
       <workItem from="1667367685068" duration="92000" />
       <workItem from="1667371169205" duration="662000" />
-      <workItem from="1667374611598" duration="1362000" />
+      <workItem from="1667374611598" duration="3161000" />
+      <workItem from="1667406194613" duration="7097000" />
     </task>
     <task id="LOCAL-00001" summary="two commit">
       <created>1666952870181</created>
